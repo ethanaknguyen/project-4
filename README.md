@@ -1,4 +1,3 @@
-# Project 4 Repo
 
 ## Project 4 Learning Objectives
 1. Build a To-Do app that uses the Web Storage API
@@ -7,9 +6,8 @@ create a persistent data store
 3. ES6 Class Types: The Basics
 4. ES6 Class Types: Inheritance
 
-# Project 3 Repo
 
-## 281 Project 3 Learning Outcomes
+## 281 Project 3 Learning Objectives
 
 - A web API or Application Programming Interface is an API
 accessed using the HTTP protocol. Web APIs often deliver data
@@ -24,9 +22,7 @@ understand how the API works and what it returns.
 use it to refresh part of a web
 
 
-## 281 Project 2 Learning Outcomes
-
-## Learning Objectives
+## 281 Project 2 Learning Objectives
 
 - A web API or Application Programming Interface is an API accessed using the HTTP protocol
 - Web APIs often deliver data formatted as JSON
@@ -37,8 +33,6 @@ understand how the API works and what it returns.
 Flickr offers several public APIs
 
 ## 281 Project 1 Learning Outcomes
-
-## Learning Objectives
 
 - Basic Unix Shell commands
 - Install and Configure Git using thee Unix Shell
