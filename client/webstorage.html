@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <title>A Simple App</title>
+
+    <link href="stylesheets/to-do.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <header>
+      <h1>2do List</h1>
+      <p>A simple app that allows a user to input comments</p>
+    </header>
+
+    <main>
+      <section class="comment-input">
+        <p>Add Your Comment:</p>
+        <input type= "text"><button>+</button>
+        <p style="margin-top: 10px; "> Delete All Comments:
+          :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button style="padding-left:6px; padding-right: 6px;">-</button> </p>
+      </section>
+
+
+      <section class="comments">
+        <p>This is the first comment!</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>this work is released into the public domain</p>
+    </footer>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="javascripts/webstorage.js"></script>
+  </body>
+</html>

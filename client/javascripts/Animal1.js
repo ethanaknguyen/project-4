@@ -79,13 +79,13 @@ let test_driver = () => {
   };
 
   let test_dog = () => {
-    let fang = new Dog("Fang", "Airedale", 50, "Woof Woof!");
+    let fang = new Dog("Fang", "Airedale", 50, "Woof Woof");
     fang.run(20);
     console.log(`${fang.name} is a ${fang.breed} dog weighing ${fang.weight} lbs. that can run ${fang.speed} mph.`);
-    console.log(`Look, a cat! ${fang.name} barks: ${fang.bark}!`);
+    console.log(`Look, a cat! ${fang.name} barks: ${fang.bark}`);
     fang.stop();
     console.log(`${fang.bark}`)
-    const zero = new Dog("Zero", "Beagle", 22, "Yip Yip!");
+    const zero = new Dog("Zero", "Beagle", 22, "Yip Yip");
     zero.run(10);
     console.log(`${zero.name} is a ${zero.breed} dog weighing ${zero.weight} lbs. that can run ${zero.speed} mph.`);
     console.log(`Look, a cat! ${zero.name} barks: ${zero.bark}`);
